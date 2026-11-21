@@ -9,24 +9,25 @@ import AcountButtons from './AcountButtons'
 const UnderHeader = () => {
   return (
     <>
-          <div className=" w-full h-[132px] border border-red-700 mt-[6px] flex justify-center px-[48px]">
-      <div className="w-full h-[80px] border border-amber-300 flex items-center justify-between">
-        <div className="">
+          <div className=" w-full h-[80px]  mt-[6px] flex justify-center md:px-[48px]">
+      <div className="w-full h-[80px]   flex items-center justify-between">
+        <div className="w-[600px] max-md:w-full max-md:px-5 flex items-center gap-3">
           <Image 
           src={images.ff}
           width={80}
           height={80}
           alt="ddd"
+          className='w-24 h-24 z-1 max-[460px]:hidden max-md:w-20 max-md:h-20'
           />
-          <p></p>
-        </div>
-                  <div className=" w-[539.09px] h-[42px] border border-blue-700 flex justify-center">
-                    <div className="w-[491.09px] h-full border border-[#D0C4BD] flex items-center gap-[15px] rounded-[8px] pr-[8px] ">
+          <div className=" w-full h-[42px]   flex justify-center ">
+                    <div className="w-full h-full bg-[#7a5b461b] flex items-center gap-[15px] rounded-[8px] pr-[16px] ">
                      <SearchIcons />
                      
-                      <input placeholder="جستجوی میز، کنسول، شلف چوبی یا کد کالا... " className="w-[230px] p placeholder:text-[12px] font-regular outline-none " />
+                      <input placeholder="جستجوی میز، کنسول، شلف چوبی یا کد کالا... " className="w-[80%] p placeholder:text-[12px] font-regular outline-none " />
                     </div>
                   </div>
+        </div>
+                  
                  <AcountButtons/>   
       </div>
      </div>

@@ -10,7 +10,7 @@ const LeftHeader = () => {
       <div className="text-[#FBF9F6] text-[10px] font-regular">|</div>
        <div className="w-[100px] flex   h-[18px] justify-between ">
         <PhoneIcons/>
-<p className="text-[11px] text-[#FFDBC9] flex h-full items-center mt-0.5">09352505353</p>
+<p className="text-[11px] text-[#FFFFFF] flex h-full items-center mt-0.5">09352505353</p>
        </div>
     </div>
     </>
